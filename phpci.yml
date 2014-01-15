@@ -1,0 +1,21 @@
+build_settings:
+
+setup:
+
+test:
+    php_code_sniffer:
+        standard: "Orangebite"
+
+    php_mess_detector:
+        bull: "shit"
+
+success:
+    clean_build:
+        remove:
+            - phpci.yml
+
+    copy_build:
+        directory: "C:/apache/htdocs/builds/test"
+
+    php_loc:
+        directory: "C:/apache/htdocs/builds/test"
